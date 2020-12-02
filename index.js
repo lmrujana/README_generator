@@ -7,17 +7,17 @@ const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'What is the title of the project?',
+        message: 'Enter the title of the project:',
     },
     {
         type: 'input',
         name: 'description',
-        message: 'Enter description of your project.'
+        message: 'Enter description of your project:'
     },
     {
         type: 'input',
         name: 'installation',
-        message: 'What are the installation instructions for this project?'
+        message: 'Enter the installation instructions for this project:'
     },
     {
         type: 'input',
@@ -28,8 +28,12 @@ const questions = [
         type: 'input',
         name: 'contribution',
         message: 'Who contributed to this project?'
+    },
+    {
+        type: 'input',
+        name: 'questions',
+        message: 'Enter your GitHub username:'
     }
-
 ];
 
 // function to write README file

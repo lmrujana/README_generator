@@ -9,23 +9,26 @@ function generateMarkdown(data) {
   4. [License](#license "License")
   5. [Contributing](#contributing "Contributing")
   6. [Tests](#tests "Tests")
+  7. [Questions](#questions "Questions")
 
   ##Description
-
+  ${data.description}
 
   ##Installation
-
+  ${data.installation}
 
   ##Usage
-
+  ${data.usage}
 
   ##License
 
-
   ##Contributing
-
+  ${data.constributing}
 
   ##Tests
+
+  ##Questions
+  [GitHub Page](https://github.com/${data.questions})
 `;
 }
 
