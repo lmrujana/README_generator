@@ -15,6 +15,12 @@ const questions = [
         message: 'Enter description of your project:'
     },
     {
+        type: 'list',
+        name: 'license',
+        message: 'Choose a license for your project:',
+        choices: ['Apache', 'BSD', 'MIT', 'Mozilla']
+    },
+    {
         type: 'input',
         name: 'installation',
         message: 'Enter the installation instructions for this project:'
@@ -28,6 +34,11 @@ const questions = [
         type: 'input',
         name: 'contribution',
         message: 'Who contributed to this project?'
+    },
+    {
+        type: 'input',
+        name: 'tests',
+        message: 'Enter tests instructions/specifications:'
     },
     {
         type: 'input',
