@@ -11,24 +11,25 @@ function generateMarkdown(data) {
   6. [Tests](#tests "Tests")
   7. [Questions](#questions "Questions")
 
-  ##Description
+  ## Description
   ${data.description}
 
-  ##Installation
+  ## Installation
   ${data.installation}
 
-  ##Usage
+  ## Usage
   ${data.usage}
 
-  ##License
+  ## License
 
-  ##Contributing
-  ${data.constributing}
+  ## Contributing
+  ${data.contribution}
 
-  ##Tests
+  ## Tests
 
-  ##Questions
-  [GitHub Page](https://github.com/${data.questions})
+  ## Questions
+  [GitHub Page](https://github.com/${data.questions})  
+  Email: ${data.email}
 `;
 }
 

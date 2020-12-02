@@ -33,6 +33,11 @@ const questions = [
         type: 'input',
         name: 'questions',
         message: 'Enter your GitHub username:'
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Enter your email address:'
     }
 ];
 
@@ -43,9 +48,10 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-    writeToFile('README.md', answers);
-
-}
+    inquirer.prompt(questions).then(answers =>
+        {writeToFile('README.md', answers)
+    });
+};
 
 // function call to initialize program
 init();
