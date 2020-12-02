@@ -34,7 +34,7 @@
   N/A
 
   ## Questions
-  If your have any questions regarding this application, please contact us at:  
+  If you have any questions regarding this application, please contact me at:  
   [GitHub Page](https://github.com/lmrujana)  
   Email: lmrujanass@gmail.com
 
