@@ -5,7 +5,7 @@
   2. [Installation](#installation "Installation")
   3. [Usage](#usage "Usage")
   4. [License](#license "License")
-  5. [Contributing](#contributing "Contributing")
+  5. [Contribution](#contribution "Contributing")
   6. [Tests](#tests "Tests")
   7. [Questions](#questions "Questions")
 
